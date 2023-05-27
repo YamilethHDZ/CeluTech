@@ -21,6 +21,7 @@ Estudiantes:
   <img src="https://github.com/AdonyUlloa/CeluTech/blob/Master/LOGO.jpg" alt="CeluTech"/>
 </p>
 Propósito:
+
 Este proyecto busca desarrollar una aplicación móvil para la venta de teléfonos celulares en línea. Los usuarios podrán buscar, comparar y comprar teléfonos fácilmente. Los vendedores podrán administrar su inventario y gestionar pedidos. El objetivo final es brindar una plataforma moderna y segura para una experiencia de compra rápida y satisfactoria, mejorando las ventas y la satisfacción del cliente.
 
 
