@@ -2,7 +2,7 @@
 Proyecto de Ingeneria en Sistemas UGB
 
 <p align="center">
-  <img src="https://github.com/AdonyUlloa/CeluTech" alt="UGB"/>
+  <img src="https://github.com/AdonyUlloa/CeluTech/blob/Master/logo%20ugb.png" alt="UGB"/>
 </p>
 
 Estudiantes:
