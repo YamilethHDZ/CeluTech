@@ -2,7 +2,7 @@
 Proyecto de Ingeneria en Sistemas UGB
 
 <p align="center">
-  <img src="https://github.com/AdonyUlloa/CeluTech" alt="Salon de la Fama"/>
+  <img src="https://github.com/AdonyUlloa/CeluTech" alt="UGB"/>
 </p>
 
 Estudiantes:
