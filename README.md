@@ -3,15 +3,15 @@ Proyecto de Ingeneria en Sistemas UGB
 
 Estudiantes:
 
-Edwin Adony Ulloa Diaz
+- Edwin Adony Ulloa Diaz
 
-Fatima del Carmen Ayala Santos
+- Fatima del Carmen Ayala Santos
 
-Saul Oswaldo Lopez Hernandez
+- Saul Oswaldo Lopez Hernandez
 
-Julissa Yamileth Hernandes Claros
+- Julissa Yamileth Hernandes Claros
 
-Gilmar Adriel Gonzales Romero
+- Gilmar Adriel Gonzales Romero
 
 Propósito:
 
