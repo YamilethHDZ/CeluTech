@@ -1,6 +1,8 @@
 # CeluTech
 Proyecto de Ingeneria en Sistemas UGB
-
+<p align="center">
+  <img src="https://github.com/AdonyUlloa/CeluTech/blob/Master/LOGO.jpg" alt="Salon de la Fama"/>
+</p>
 Estudiantes:
 
 - Edwin Adony Ulloa Diaz
