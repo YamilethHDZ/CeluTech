@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <TextView
         android:id="@+id/textView"
@@ -80,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
-        android:fontFamily="@font/open_sans_semibold"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/nuevos_articulos"
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
@@ -104,7 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
-        android:fontFamily="@font/open_sans_semibold"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/seleccione_categoria"
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
@@ -138,7 +139,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
-        android:fontFamily="@font/open_sans_semibold"
+        android:fontFamily="sans-serif-medium"
         android:text="@string/productos_vistos_recientemente"
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
