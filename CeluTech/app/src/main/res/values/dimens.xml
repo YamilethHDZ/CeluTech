@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="check_list_header_padding" />
+    <dimen name="check_list_header_text_size" />
+    <dimen name="view_line_height" />
+</resources>
