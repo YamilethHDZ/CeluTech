@@ -10,7 +10,6 @@
         android:layout_width="246dp"
         android:layout_height="53dp"
         android:text="ELIMINAR"
-        app:layout_ConstrainTop_toTopOf="parent"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="474dp"
         tools:ignore="MissingConstraints" />
