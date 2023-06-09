@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -11,8 +10,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CeluTech"
+        android:theme="@style/Theme.CeluTech2"
         tools:targetApi="31">
+        <activity
+            android:name=".ProductDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AllCategory"
+            android:exported="false" />
+        <activity
+            android:name=".Products_iteam"
+            android:exported="false" />
+        <activity
+            android:name=".products_iteam"
+            android:exported="false" />
+        <activity
+            android:name=".Productos_list"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

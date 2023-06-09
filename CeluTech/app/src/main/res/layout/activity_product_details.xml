@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".ProductDetails">
 
     <ImageView
         android:id="@+id/cart"
@@ -29,14 +30,12 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:text="Product Details"
+        android:text="Detalles del producto"
         android:textColor="@android:color/background_dark"
         app:layout_constraintBottom_toBottomOf="@+id/back2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/back2"
-        tools:text="Detalles del producto" />
+        app:layout_constraintTop_toTopOf="@+id/back2" />
 
     <ImageView
         android:id="@+id/big_image"
@@ -54,7 +53,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
-        android:fontFamily="sans-serif"
         android:text="TextView"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +64,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="272dp"
-        android:fontFamily="sans-serif"
         android:text="prodDesc"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,16 +78,15 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/buy_now_bg"
-        android:fontFamily="sans-serif"
-        android:text="COMPRAR YA"
+        android:text="Comprar"
         android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -112,7 +108,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:fontFamily="sans-serif"
         android:text="TextView"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/prodDesc"
@@ -123,7 +118,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:fontFamily="sans-serif"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="@+id/prodPrice"
         app:layout_constraintTop_toBottomOf="@+id/prodPrice" />
@@ -133,58 +127,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:fontFamily="sans-serif"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="@+id/qty"
         app:layout_constraintStart_toEndOf="@+id/qty"
         app:layout_constraintTop_toTopOf="@+id/qty" />
-
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-        </RadioGroup>
-    </FrameLayout>
-
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="132dp"
-        android:backgroundTint="#3F51B5"
-        android:text="Negro"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toStartOf="@+id/radioButton"
-        app:layout_constraintStart_toEndOf="@+id/unit"
-        app:layout_constraintTop_toBottomOf="@+id/big_image" />
-
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
-        android:backgroundTint="#C11616"
-        android:text="Rojo"
-        android:textColor="#FF0000"
-        app:layout_constraintStart_toEndOf="@+id/radioButton2"
-        app:layout_constraintTop_toBottomOf="@+id/big_image" />
-
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
-        android:backgroundTint="#E5DBE3"
-        android:text="Rosa"
-        android:textColor="#DA7DC0"
-        app:layout_constraintStart_toEndOf="@+id/radioButton"
-        app:layout_constraintTop_toBottomOf="@+id/big_image" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
